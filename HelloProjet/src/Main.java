@@ -8,6 +8,7 @@ public class Main {
     private Integer age;
     private String name;
     private double weight;
+    private double height;
 
     @Test
     public void test() {
