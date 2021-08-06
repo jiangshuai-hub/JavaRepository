@@ -5,6 +5,9 @@ import java.util.Arrays;
 
 public class Main {
 
+    private Integer age;
+    private String name;
+
     @Test
     public void test() {
 
