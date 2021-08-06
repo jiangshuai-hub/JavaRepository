@@ -7,6 +7,7 @@ public class Main {
 
     private Integer age;
     private String name;
+    private double weight;
 
     @Test
     public void test() {
