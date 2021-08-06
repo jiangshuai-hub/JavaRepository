@@ -9,6 +9,7 @@ public class Main {
     private String name;
     private double weight;
     private double height;
+    private double salary;
 
     @Test
     public void test() {
