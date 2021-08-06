@@ -1,16 +1,19 @@
 import org.junit.Test;
 
+import javax.xml.transform.Source;
+import java.util.Arrays;
+
 
 public class Main {
 
     @Test
     public void test() {
-        for (int i = 0; i < 1000; i++) {
-            System.out.println(i);
-        }
+
         System.out.println("Hello Github!");
-        System.out.println("===============");
-        System.out.println("Hello World!");
-        
+        int[] arr = {10, 9, 8, 7, 6, 5, 4, 3, 2, 1};
+        System.out.println(Arrays.toString(arr));
+        Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
+
     }
 }
